@@ -1,0 +1,1 @@
+You can go through the tutorial https://roytuts.com/spring-conditionalonwebapplication-and-conditionalonnotwebapplication/
