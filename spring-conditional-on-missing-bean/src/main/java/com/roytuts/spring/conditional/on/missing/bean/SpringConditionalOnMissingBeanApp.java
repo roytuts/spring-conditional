@@ -12,7 +12,7 @@ public class SpringConditionalOnMissingBeanApp implements CommandLineRunner {
 	private SpringService springService;
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringConditionalOnMissingBeanApp.class, args);
+		SpringApplication.run(SpringConditionalOnMissingBeanApp.class, args).close();
 	}
 
 	@Override
