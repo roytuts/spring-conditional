@@ -12,7 +12,7 @@ public class SpringConditionalOnBeanApp implements CommandLineRunner {
 	private SpringService springService;
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringConditionalOnBeanApp.class, args);
+		SpringApplication.run(SpringConditionalOnBeanApp.class, args).close();
 	}
 
 	@Override
