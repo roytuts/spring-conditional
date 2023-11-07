@@ -1,1 +1,1 @@
-You can go through the tutorial https://roytuts.com/spring-conditionalonmissingbean-example/
+Please follow the tutorial https://roytuts.com/spring-conditionalonmissingbean-example/
