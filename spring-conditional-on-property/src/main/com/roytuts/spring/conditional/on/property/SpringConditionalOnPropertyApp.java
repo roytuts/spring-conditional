@@ -12,7 +12,7 @@ public class SpringConditionalOnPropertyApp implements CommandLineRunner {
 	private SpringService springService;
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringConditionalOnPropertyApp.class, args);
+		SpringApplication.run(SpringConditionalOnPropertyApp.class, args).close();
 	}
 
 	@Override
