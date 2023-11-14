@@ -15,7 +15,7 @@ public class SpringConditionalOnResourceApp implements CommandLineRunner {
 	private ApplicationContext applicationContext;
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringConditionalOnResourceApp.class, args);
+		SpringApplication.run(SpringConditionalOnResourceApp.class, args).close();
 	}
 
 	@Override
