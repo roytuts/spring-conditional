@@ -15,7 +15,7 @@ public class SpringConditionalOnWebNotWebApp implements CommandLineRunner {
 	private ApplicationContext applicationContext;
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringConditionalOnWebNotWebApp.class, args);
+		SpringApplication.run(SpringConditionalOnWebNotWebApp.class, args).close();
 	}
 
 	@Override
