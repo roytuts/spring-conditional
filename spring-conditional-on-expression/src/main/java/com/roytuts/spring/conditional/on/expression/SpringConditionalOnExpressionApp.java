@@ -15,7 +15,7 @@ public class SpringConditionalOnExpressionApp implements CommandLineRunner {
 	private ApplicationContext applicationContext;
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringConditionalOnExpressionApp.class, args);
+		SpringApplication.run(SpringConditionalOnExpressionApp.class, args).close();
 	}
 
 	@Override
